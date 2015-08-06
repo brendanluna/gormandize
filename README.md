@@ -6,6 +6,7 @@ Gormandize allows you to enter a location and a search term (i.e. 'Pizza' or 'Su
 Uses the Yelp API, Foursquare API, Geolocation from Google Maps API, Leaflet JS Maps, and amCharts (JS charts).
 
 
+---
 
 ![gormandize1](https://cloud.githubusercontent.com/assets/5156743/9105247/da673974-3bca-11e5-88a1-536e5f06d11c.png)
 
