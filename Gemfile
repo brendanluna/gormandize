@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+ruby '2.1.4'
+
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'yelp', require: 'yelp'
+gem 'json'
+gem 'foursquare2'
+gem 'puma'
+gem 'dotenv'

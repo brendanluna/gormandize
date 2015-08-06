@@ -1,0 +1,602 @@
+/*
+ * The Custom CSS used for our entire web app
+ */
+
+
+body{
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cabin', Georgia, Times, serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.text-primary{
+  color: #f0ad4e;
+}
+
+/*
+* Navbar
+*/
+
+.navbar-default {
+  border-color: transparent;
+  background-color: #222;
+}
+
+.navbar-default .navbar-brand {
+  font-family: 'Cabin', Georgia, Times, serif;
+  color: #f0ad4e;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+  color: #F0C94E;
+}
+
+.navbar-default .navbar-collapse {
+  border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  background-color: #f0ad4e;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #3A6D9B;
+}
+
+.navbar-default .nav li a {
+  text-transform: lowercase;
+  font-size: 1.5em;
+  font-family: 'Cabin', Georgia, Times, serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+  outline: 0;
+  color: #F0C94E;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  border-radius: 0;
+  color: #fff;
+  background-color: #F0C94E;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #fff;
+  background-color: #F0C94E;
+}
+
+@media(min-width:768px) {
+  .navbar-default {
+    padding: 25px 0;
+    border: 0;
+    background-color: transparent;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+  }
+
+  .navbar-default .navbar-brand {
+    font-size: 2.5em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+
+  .navbar-default .navbar-nav>.active>a {
+    border-radius: 3px;
+  }
+
+  .navbar-default.navbar-shrink {
+    padding: 10px 0;
+    background-color: rgba(58, 109, 155, 0.9);
+  }
+
+  .navbar-default.navbar-shrink .navbar-brand {
+    font-size: 2.0em;
+  }
+
+  #user_location{
+    width: 275px;
+  }
+
+  #user_term{
+    width: 275px;
+  }
+
+
+}
+
+/*
+* Header
+*/
+
+header {
+
+  text-align: center;
+  color: #fff;
+  background-image: url(../images/grey_cups_background.jpg);
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+  margin-bottom: 25px;
+  font-family: 'Cabin', Georgia, Times, serif;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+}
+
+header .intro-text .intro-heading {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-family: 'Cabin', Georgia, Times, serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+@media(min-width:768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 100px;
+  }
+
+  header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: 'Cabin', Georgia, Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+  }
+
+  header .intro-text .intro-heading {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-family: 'Cabin', Georgia, Times, serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 75px;
+  }
+}
+
+.input-group{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*
+* How To Section
+*/
+
+#howTo{
+  padding: 50px 0px 50px 0px;
+}
+
+
+/*
+* Map & Yelp Results Section
+*/
+
+#map{
+  height: 315px;
+}
+
+#mapResults{
+  padding: 25px 0px 25px 0px;
+}
+
+
+/*
+* User Tips Section
+*/
+
+#userTips{
+  color:white;
+  padding: 50px 0px 50px 0px;
+  background-color: #f0ad4e;
+}
+
+#userTips .img-circle{
+  border: 5px solid white;
+}
+
+#userTips .section-subheading{
+  font-weight: 400 !important;
+}
+
+#tips_photos{
+  padding-top: 25px;
+}
+
+#tips_photos .media-body{
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+/*
+* Foursquare Results Section
+*/
+
+#fsResults{
+  padding: 50px 0px 25px 0px;
+}
+
+
+/*
+* Charts Section
+*/
+
+#chart-1-section{
+    margin: 50px 0px 50px 0px;
+}
+
+#chart-2-section{
+    background-color: #FBFBFB;
+    margin: 50px 0px 50px 0px;
+}
+
+#chart-3-section{
+    margin: 50px 0px 50px 0px;
+}
+
+#chart-1 {
+  height  : 500px;
+  margin: 50px 0px 50px 0px
+} 
+
+#chart-1 a{
+  /* Hide amCharts text */
+  font-size: 0!important;
+}
+
+#chart-2 {
+  height: 500px; 
+  margin: 50px 0px 50px 0px
+}
+#chart-2 a{
+  /* Hide amCharts text */
+  font-size: 0!important;
+}
+
+#chart-3 {
+  height    : 500px;
+  font-size : 11px;
+  margin-bottom: 20px;
+}
+
+#chart-3 a{
+  /* Hide amCharts text */
+  font-size: 0!important;
+}
+
+#chart-row-1{
+  border-top: solid #EEE;
+  text-align: center;
+}
+
+#chart-row-2{
+  text-align: left;
+  color: #333;
+}
+
+#chart-row-3{
+  text-align: right;
+}
+
+#fa-yelp{
+	color: #C41200;
+}
+
+#fa-fs{
+	color: #F94877;
+}
+
+.get_photos{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#get_photos{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#display_fs_images .img{
+  display: inline-block;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+#fs-images-section{
+  padding-top: 25px;
+  padding-bottom: 50px;
+  text-align:center;
+}
+
+
+/*
+* Footer
+*/
+
+.footer {
+  padding: 22px 60px 20px;
+  background-color: #333;
+  clear: both;
+  overflow: hidden;
+  font-family: 'Cabin', Georgia, Times, serif;
+}
+
+.footer .footer-text{
+  text-align: left;
+  color: white;
+}
+
+.footer .footer-text p{
+  text-align: left;
+  color: white;
+  float:left;
+}
+
+.footer .footer-text ul{
+  float: right;
+  list-style: none;
+  overflow:hidden;
+}
+
+.footer .footer-text ul li{
+  margin: 0 0 0 50px;
+  float:left;
+}
+
+.footer .footer-text ul li a{
+  color: white;
+}
+
+.footer .footer-text ul li a:hover{
+  color: #F0AD4E;
+}
+
+
+
+/*
+ * About Us Page
+ */
+
+ #aboutUs{
+  text-align: center;
+  color: #fff;
+  background-image: url(../images/grey_about_us_background.jpg);
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#aboutUs .aboutUsText{
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+#aboutUs .aboutUsText .aboutSubheading{
+  font-family: 'Cabin', Georgia, Times, serif;
+  font-size: 20px;
+}
+
+#aboutUs .aboutUsText .aboutHeading{
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-family: 'Cabin', Georgia, Times, serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+#aboutUsProfiles{
+  padding: 50px 50px 100px 50px;
+}
+
+#aboutUsProfiles .img-circle{
+  background:#555;
+  width: 140px;
+  height: 140px;
+}
+
+#aboutUsProfiles .col-md-4{
+  padding-bottom: 20px;
+}
+
+/*
+ * Help Page
+ */
+
+ #help{
+  text-align: center;
+  color: #fff;
+  background-image: url(../images/grey_help_background.jpg);
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#help .helpText{
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+#help .helpText .helpSubheading{
+  font-family: 'Cabin', Georgia, Times, serif;
+  font-size: 20px;
+}
+
+#help .helpText .helpHeading{
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-family: 'Cabin', Georgia, Times, serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+#helpTips{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+/*
+ * Technologies Used Page
+ */
+
+ #tech{
+  text-align: center;
+  color: #fff;
+  background-image: url(../images/grey_tech_background.jpg);
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#tech .techText{
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+#tech .techText .techSubheading{
+  font-family: 'Cabin', Georgia, Times, serif;
+  font-size: 20px;
+}
+
+#tech .techText .techHeading{
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-family: 'Cabin', Georgia, Times, serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+#techTips{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.box {
+  border-radius: 3px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 10px 25px;
+  text-align: right;
+  display: block;
+  margin-top: 60px;
+}
+.box-icon {
+  background-color: #3A6D9B;
+  border-radius: 50%;
+  display: table;
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
+  margin-top: -61px;
+}
+.box-icon span {
+  color: #fff;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.info h4 {
+  font-size: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.info > p {
+  color: #717171;
+  font-size: 16px;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+
+/*
+ * Error (404) Page
+ */
+
+ #oops{
+  text-align: center;
+  color: #fff;
+  background-image: url(../images/oops_background.jpg);
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#oops .oopsText{
+  padding-top: 300px;
+  padding-bottom: 400px;
+}
+#oops .oopsText .oopsSubheading{
+  font-family: 'Cabin', Georgia, Times, serif;
+  font-size: 20px;
+}
+
+#oops .oopsText .oopsHeading{
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-family: 'Cabin', Georgia, Times, serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+
+.pagination-centered {
+  text-align: center;
+}
+
+
+
+
+
+
+
